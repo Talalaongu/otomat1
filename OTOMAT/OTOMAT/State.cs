@@ -47,17 +47,17 @@ namespace OTOMAT
             return kq;
         }
 
-        public static State operator =(State a, State b)
-        {
-            State kq = new State(a._maxlength);
-            for (int i = 0; i < kq._maxlength; i++)
-            {
-                if (a.value[i] == true && b.value[i] == true)
-                {
-                    kq.value[i] = true;
-                }
-            }
-            return kq;
-        }
+        //public static State operator =(State a, State b)
+        //{
+        //    State kq = new State(a._maxlength);
+        //    for (int i = 0; i < kq._maxlength; i++)
+        //    {
+        //        if (a.value[i] == true && b.value[i] == true)
+        //        {
+        //            kq.value[i] = true;
+        //        }
+        //    }
+        //    return kq;
+        //}
     }
 }

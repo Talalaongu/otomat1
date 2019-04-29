@@ -15,6 +15,11 @@ namespace OTOMAT
         public int _FirstQ;
         public State[] F;
 
+        public int NumState { get => _NumState; set => _NumState = value; }
+        public int NumAlpabet { get => _NumAlpabet; set => _NumAlpabet = value; }
+
+        public FA()
+        { }
         public FA(int _state, int _alphabet)
         {
             _NumAlpabet = _alphabet;
