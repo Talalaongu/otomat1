@@ -10,6 +10,10 @@ namespace OTOMAT
     {
         static void Main(string[] args)
         {
+            Algorithm A = new Algorithm();
+            A.NFAToDFA();
+
+            Console.ReadLine();
         }
     }
 }

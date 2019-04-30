@@ -47,6 +47,31 @@ namespace OTOMAT
             return kq;
         }
 
+        public bool Equals(State a, State b)
+        {
+            int count = 0;
+            for (int i = 0; i < a._maxlength; i++)
+            {
+                if (a.value[i] !=  b.value[i])
+                {
+                    count++;
+                }
+            }
+            if (count != 0)
+                return false;
+            else
+                return true;
+        }
+
+        public bool Empty()
+        {
+            for(int i = 0; i < this._maxlength; i++)
+            {
+                if (this.value[i] == true)
+                    return false;
+            }
+            return true;
+        }
         //public static State operator =(State a, State b)
         //{
         //    State kq = new State(a._maxlength);

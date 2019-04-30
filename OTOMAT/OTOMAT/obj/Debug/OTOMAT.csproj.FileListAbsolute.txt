@@ -1,2 +1,7 @@
 C:\Users\admin\source\repos\OTOMAT\OTOMAT\obj\Debug\OTOMAT.csprojAssemblyReference.cache
 C:\Users\admin\source\repos\OTOMAT\OTOMAT\obj\Debug\OTOMAT.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\OTOMAT\OTOMAT\bin\Debug\OTOMAT.exe.config
+C:\Users\admin\source\repos\OTOMAT\OTOMAT\bin\Debug\OTOMAT.exe
+C:\Users\admin\source\repos\OTOMAT\OTOMAT\bin\Debug\OTOMAT.pdb
+C:\Users\admin\source\repos\OTOMAT\OTOMAT\obj\Debug\OTOMAT.exe
+C:\Users\admin\source\repos\OTOMAT\OTOMAT\obj\Debug\OTOMAT.pdb
